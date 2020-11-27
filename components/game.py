@@ -9,11 +9,11 @@ from UTILS.constants import (
 from components.player import Player
 
 
-class game:
+class Game:
     def __init__(self):
         pygame.init()
         pygame.display.set_caption(TITLE)
-        self.creen = pygame.display_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
+        self.screen = pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
         self.clock = pygame.time.Clock()
     def run(self):
         self.create_components()
@@ -43,9 +43,5 @@ class game:
         self.screen.fill(BLACK)
         self.all_sprites.draw(self.screen)
         pygame.display.flip()
-
-
-
-
 
 

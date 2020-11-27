@@ -21,4 +21,4 @@ class Player(pygame.sprite.Sprite):
         if self.rect.right >= SCREEN_WIDTH:
             self .rect.right = SCREEN_WIDTH
 
-            tarea hacer hacie el otro lado
+         

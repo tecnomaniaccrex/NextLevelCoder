@@ -1,5 +1,5 @@
-from components import game
+from components.game import Game
 
 if __name__ == "__main__":
-    game = game
+    game = Game()
     game.run()
