@@ -1,10 +1,11 @@
 import pygame
+
 from UTILS.constants import (
-    RED,
-    SCREEN_HEIGHT,
-    SCREEN_WIDTH
+    RED
 
 )
+
+
 class Bullet(pygame.sprite.Sprite):
     def __init__(self, x, y):
         pygame.sprite.Sprite.__init__(self)
